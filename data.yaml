@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['defective-status-BczS']
+
+roboflow:
+  workspace: school-g0rkc
+  project: factory-part-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/school-g0rkc/factory-part-detection/dataset/1
